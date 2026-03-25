@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             background-color: cornflowerblue;
+        }
+        #card{
+          height: 500px;
+          width: 400px;
+          background-color: #fff;
+          border-radius: 30px;
+          padding: 30px;
+          text-align: center;
+
+        }
+        #card img{
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 40px;
+        }
+        #card h1{
+            font-size: 40px;
+            margin: 10px 0;
+        }
+        #card h5{
+            font-size: 25px;
+            color: red;
+            margin: 20px;
+        }
+        #card button{
+            background-color: cadetblue;
+            color: #fff;
+            font-weight: 700;
+            padding: 12px 20px;
+            border-radius: 50px;
+            border: none;
+        }
+    </style>
+ </head>
+<body>
+   <div id="card">
+   <h2 id="question">Question here</h2>
+
+<div id="options"></div>
+
+<div style="margin-top:20px;">
+  <button id="prevBtn" style="background-color: rgb(185, 28, 67);" >Previous</button>
+  <button id="nextBtn" style="background-color: rgb(31, 73, 31);">Next</button>
+</div>
+
+<h3 id="score"></h3>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
